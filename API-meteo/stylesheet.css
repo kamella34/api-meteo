@@ -1,0 +1,81 @@
+
+
+body{
+    background-image:url(https://i.picsum.photos/id/1019/5472/3648.jpg?hmac=2mFzeV1mPbDvR0WmuOWSiW61mf9DDEVPDL0RVvg1HPs) ;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+    margin: auto;
+    width: 30rem;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 248, 255, 0.47);
+    border-radius: 1rem;
+}
+
+h1{
+    align-self: center;
+    color: rgba(34,65,83,1);
+}
+
+input{
+    margin-bottom: 1rem;
+    width: 10rem;
+    height: 1.5rem;
+    align-self: center;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.info{
+    color: #03032c;
+    align-self: center;
+}
+
+button{
+    width: 10rem;
+    height: 1.5rem;
+    align-self: center;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    background: rgb(34,65,83);
+    background: linear-gradient(90deg, rgba(34,65,83,1) 35%, rgba(104,198,253,1) 100%);
+}
+
+button:active{
+    width: 10.1rem;
+    height: 1.6rem;
+}
+.ville{
+    align-self: center;
+    color:rgb(34,65,83); 
+    font-size: 1.5rem;
+}
+.etat-temps{
+    align-self: center;
+    color: rgb(34,65,83);
+}
+
+.icone-temps{
+    align-self: center;
+}
+.temperature{
+    align-self: center;
+    color:rgb(34,65,83);
+     font-weight: bold;
+     font-size: 1.5rem;
+}
+.disable{
+    display: none;
+}
+
+
+@media screen and (max-width: 600px){
+    main{
+        width: 5rem;
+    }
+}
